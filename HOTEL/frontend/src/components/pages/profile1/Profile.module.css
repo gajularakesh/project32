@@ -1,0 +1,99 @@
+
+#div1{
+  
+    /* width: fit-content; */
+    width: 50%;
+    justify-content: center;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .proimg{
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+      justify-content: center;
+      margin: 20px;
+  }
+  #div12{
+      border-top:1px solid grey;
+  }
+  #h11{
+  color: black;
+  opacity: .5;
+  }
+  .text p{
+    font-size: 20px;
+  }
+  .text h5{
+    font-size: 40px;
+    text-shadow:black;
+  }
+  .bookings{
+      display:none;
+  }
+  .bookings .bookingslink h5:hover{
+    display:block;
+  }
+
+  .bookingids p{
+    font-size: 20px;
+  }
+  .tablebook {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .thbook .tdbook {
+    text-align: left;
+    padding: 8px;
+   
+  }
+
+  .tablediv{
+    overflow-x:auto;
+  }
+
+  .statusbook{
+    color : rgb(0, 160, 21);
+  }
+  .thbook{
+    font-size: 20px;
+  }
+  
+  .trbook:nth-child(even){
+    background-color: #f2f2f2;
+    font-size: 15px;
+  }
+  .trbook:nth-child(odd){
+    font-size: 15px;
+  }
+  .buttonlogout {
+    background-color: #e2240b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px)
+  {
+      .proimg{
+          width: 200px;
+          height: 200px;
+          border-radius: 100px;
+      }
+      #div1{
+          height: 90%;
+          width: 90%;
+      }
+  }

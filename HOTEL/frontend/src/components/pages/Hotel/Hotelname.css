@@ -1,0 +1,314 @@
+.hotelnames{
+    font-size: 15px;
+}
+#address{
+    color:rgba(0, 0, 0, 0.4);
+}
+#data{
+    
+    
+    padding: 15px;
+    display: flex;
+    justify-content:space-around;
+    width:65%;
+    
+}
+#rat{
+background-color: lightsalmon;
+height: 50px;
+margin-top: 32px;
+border-radius: 5px;
+background-color:green;
+font-size: 15px;
+color: honeydew;
+padding:5px 5px 0px 5px ;
+
+}
+#marq{
+    /* background-color:rgb(255,0,0); */
+    color:white;
+    font-size: 25px;
+    background: linear-gradient(
+      90deg,
+      rgb(241, 66, 66) 0%,
+      rgb(184, 10, 10) 100%
+    );
+    
+}
+#rupee{
+    font-size: 30px;
+}
+#rupe{
+    font-size: 20px;
+    color: rgb(255, 69, 0,.8);
+    text-align: left;
+}
+#fixed{   
+    
+    padding: 15px;
+    width: 40%;
+   
+   
+
+}
+
+#name{
+    display: flex;
+  
+}
+#rup{
+    text-align: left;
+    padding-top: 10px;
+}
+#init{
+    font-size: 25px;
+}
+
+  #pay{
+ 
+    height: 50px;
+    margin-top: 32px;
+    border-radius: 5px;
+    padding:11px 20px 0px 20px ;
+
+   /* background:rgb(10, 240, 10); */
+
+  
+
+  }
+  #btn{
+      
+      color:white;
+      font-size: 30px;
+      background:rgb(10, 240, 10);
+      padding-left: 15% ;
+      padding-right: 15% ;
+      border: 1px solid rgb(10, 240, 10);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 8px 50px 0 rgba(0,0,0,0.19);
+
+  }
+  .bookbtn :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+  #points{
+      margin: 51px;
+      color:tomato;
+      padding :10px;
+  }
+  #s1{
+      text-align: left;
+      padding-left: 10px;
+
+  }
+  #s11{
+      text-align: left;
+      color: rgb(0, 0, 0,.7);
+  }
+  #cancel{
+    padding:10px;
+    text-decoration: none;
+    color: rgb(255,0,0);
+    margin: 10px;
+   
+}
+#extra{
+    width: 95%;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    background: linear-gradient(
+      90deg,
+      rgb(240, 240, 240) 0%,
+      rgb(234, 255, 255) 100%
+    );
+    margin-left: 2.5%;
+}
+#extra div{
+    margin: 20px;
+    font-size: 25px;
+    }
+  /* #comp3{
+      display: flex;
+      justify-content: space-between;
+      
+
+  } */
+  #map{
+      width: 80%;
+      background: rgb(192, 192, 192,.4);
+      border-radius: 5px;
+      margin-top:5%;
+      margin-left:10%;
+      margin-bottom:5%;
+  }
+  #map h2{
+      text-align: left;
+      color: red;
+      
+  }
+  .bookform{
+    flex-direction: column;
+    margin-left:0;
+    }
+  .bookdis{
+      margin-left: 3%;
+      width:50%;
+  }
+
+  @media screen  and (max-width:600px)
+  {
+      #name{
+          display:list-item;
+          margin-bottom: 90px;
+
+      }
+      #fixed{
+          width: 80%;
+          float:none;
+          margin-left: 5%;
+      }
+    #data{
+        width:50%;
+        display: block;
+      
+    }
+    .bookinput{
+        width:auto;
+        height: 20px;
+    }
+    .booklabel{
+        font-size: 15px;
+    }
+
+    .bookdis{
+        width:80%;
+        margin-left: 10%;
+    }
+    #head{
+        font-size: 15px;
+        width:90%;
+    }
+    #points{
+       font-size: 12px;
+       margin: 5px;
+       padding:0px;
+    }
+
+    #rat{
+        background-color: lightsalmon;
+        height: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color:green;
+        font-size: 15px;
+        color: honeydew;
+        padding:7px 8px 0px 5px ;
+        width:60%;
+        margin-left: 20%;
+        }
+    #address{   
+       color:rgba(0, 0, 0,.5);
+       font-size:10px;
+       
+    }
+    #marq{
+        background-color:rgb(255,0,0);
+        color:white;
+        font-size: 15px;
+        width:100%;
+        /* margin-left: 10%; */
+    }
+    #rup{
+        text-align: left;
+        padding-top: 5px;
+        font-size: 15px;
+        /* display: block; */
+        margin-left: 10%;
+    }
+      #s1{
+      text-align: left;
+      font-size: 10px;
+
+  }
+  .bookform{
+      flex-direction: column;
+      margin-left:10%;
+  }
+  #s11{
+      text-align: left;
+      color: rgb(0, 0, 0,.7);
+      font-size: 8px;
+  }
+  #init{
+    font-size: 15px;
+}
+#price{
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+#rupee{
+    font-size: 28px;
+}
+#rupe{
+    font-size: 15px;
+}
+#btn{
+      
+    color:white;
+    font-size: 15px;
+    background:rgb(10, 240, 10);
+    /* padding-left: 75px ; */
+    width:100%;
+    
+}
+#pay{
+ 
+    height: 30px;
+    margin-top: 32px;
+    border-radius: 5px;
+    /* background-color:green; */
+    padding:10px 2px 0px 2px ;
+    /* background-color:rgb(10, 240, 10); */
+     
+
+  }
+  #cancel{
+    padding-bottom:2px;
+    text-decoration: none;
+    color: rgb(255,0,0);
+   font-size: 13px;
+
+   
+}
+  #comp3{
+    display: inline;
+}
+#extra{   
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 4%;
+ 
+}
+#extra div{
+    /* margin: 15px; */
+    font-size: 13px;
+    }
+    #map{
+        background:rgb(192, 192, 192,0.4);
+        font-size: 25px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #map h2{
+        color: red;
+        font-size: 15px;
+    }
+  
+
+
+  }

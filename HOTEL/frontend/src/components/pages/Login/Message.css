@@ -1,0 +1,13 @@
+.alert{
+    /* background-color: rgb(211, 9, 9); */
+    color:white;
+    font-size: 25px;
+    width:70%;
+    margin-left: 15%;
+  }
+  .alert-false{
+    background-color: rgb(52, 206, 52);
+  }
+  .alert-true{
+    background-color: rgb(238, 66, 66);
+  }

@@ -1,0 +1,245 @@
+FormReg{
+  background: linear-gradient(90deg, #1f5156 0%, rgb(17, 17, 17) 100%);
+}
+
+
+.formcontainerreg {
+    margin: 100px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .formcontainerlog {
+    margin: 100px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+  }
+  .closebtn a{
+    color:cornsilk;
+  }
+  .formcontentleft {
+    background: linear-gradient(
+      90deg,
+      rgb(17, 17, 17) 0%,
+      #1f5156 100%
+    );
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    color:#f5b921;
+    
+  }
+
+  .formcontentleft p{
+    position: absolute;
+    top:200px;
+    left:100px;
+  }
+  .formcontentleft h6{
+      font-size:30px;
+      position:absolute;
+      top:300px;
+      align-content: center;
+      width:500px;
+      margin-left:20px;
+      color:cornflowerblue;
+  }
+  
+  .formimg {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .formimg2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .formsuccess {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+  
+  .formcontentright {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, #1f5156 0%, rgb(17, 17, 17) 100%);
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    display:none;
+  }
+  
+  .forminputs {
+    /* margin-bottom: 0.rem; */
+    width: 80%;
+    /* margin-top: 10px; */
+  }
+  
+  .forminputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .formlabel {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .forminput {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    
+  }
+  
+  .forminput::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .forminputbtn {
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .forminputbtn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .formforgot {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-left: 50%;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  .formforgot a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
+  
+  .forminputlogin {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  .forminputlogin a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 990px) {
+    .formcontainerreg {
+      width:60%;
+      grid-template-columns: none;
+     }
+     .formcontainerlog {
+      width:60%;
+      grid-template-columns: none;
+     }
+     .formcontentleft {
+      display:none;
+      }
+      .form {
+        left: 40%; 
+      }
+      .form h1 {
+        display:block;
+      }
+  }
+
+@media screen and (max-width: 500px) {
+  .formcontainerreg {
+    width:90%;
+    grid-template-columns: none;
+  }
+  .formcontainerlog {
+    width:90%;
+    grid-template-columns: none;
+  }
+  .formcontentleft {
+    display:none;
+    }
+    .form {
+      left: 40%; 
+    }
+}
